@@ -1,0 +1,53 @@
+ion-toolbar{
+    --background: #1a65eb;
+}
+
+ion-avatar{
+    width: 40px;
+    height: 40px;
+}
+
+.title_profe{
+    position: relative;
+    left: 20px;
+}
+   
+
+ion-content{
+    --background: #ffffff;
+}
+
+.buttons{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    border: solid 2px #000000;
+    --background:#f1f1f1;
+    width: 200px;
+    height: 40px;
+}
+
+ion-item{
+    --background: #ffffff; 
+}
+
+.item1{
+    position: relative;
+    top: 150px;
+}
+
+.item2{
+    position: relative;
+    top: 200px;
+}
+
+.item3{
+    position: relative;
+    top: 250px;
+}
+
+
+ion-footer, ion-toolbar, ion-title{
+    text-align: center;
+}

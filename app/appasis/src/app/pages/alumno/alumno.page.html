@@ -1,0 +1,21 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title class="title_alumno">Bienvenido Alumno</ion-title>
+    <ion-avatar slot="end">
+      <img alt="Silhouette of a person's head" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
+    </ion-avatar>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+<div>
+  <ion-item class="item1"><ion-button class="buttons" [disabled]="true">Scanear QR</ion-button></ion-item>
+  <ion-item class="item2"><ion-button class="buttons" [disabled]="true">Asistencia</ion-button></ion-item>
+  <ion-item class="item3"><ion-button class="buttons" routerLink="/login">Cerrar Sesion</ion-button></ion-item>
+</div>
+</ion-content>
+<ion-footer>
+  <ion-toolbar>
+    <ion-title>Consultas al +11111</ion-title>
+  </ion-toolbar>
+</ion-footer>
